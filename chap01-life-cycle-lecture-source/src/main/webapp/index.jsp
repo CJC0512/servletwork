@@ -5,7 +5,10 @@
     <title>Servlet Life Cycle</title>
 </head>
 <body>
+<div align="center">
     <h1 align="center">라이프 사이클 테스트</h1>
-    <a href="xml-lifecycle">라이프사이클 테스트(xml)</a>
+    <a href="xml-lifecycle">라이프사이클 테스트(xml)</a><br>
+    <a href="annotation-lifecycle">라이프사이클 테스트(annotation)</a>
+</div>
 </body>
 </html>
