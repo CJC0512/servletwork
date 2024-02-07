@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7520bb52-0709-48cf-864d-5477222d0a46" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/chap06-exception-handler-lecture-source.main.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/chap06-exception-handler-lecture-source.test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chap06-exception-handler-lecture-source.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../chap07-forward-lecture-source/src/main/java/com/ohgiraffers/chap07forwardlecturesource/HelloServlet.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../chap07-forward-lecture-source/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../chap07-forward-lecture-source/src/main/webapp/index.jsp" afterDir="false" />
@@ -193,7 +190,7 @@
       <option name="presentableId" value="Default" />
       <updated>1707272455142</updated>
       <workItem from="1707272456180" duration="3030000" />
-      <workItem from="1707276752507" duration="25000" />
+      <workItem from="1707276752507" duration="436000" />
     </task>
     <servers />
   </component>
