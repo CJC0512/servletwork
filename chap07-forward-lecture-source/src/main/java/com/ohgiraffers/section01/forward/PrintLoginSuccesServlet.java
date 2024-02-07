@@ -7,6 +7,7 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
+import java.io.PrintWriter;
 
 @WebServlet("/print")
 public class PrintLoginSuccesServlet extends HttpServlet {
@@ -21,5 +22,21 @@ public class PrintLoginSuccesServlet extends HttpServlet {
         System.out.println("이름: " + req.getAttribute("userName"));
         System.out.println("아이디: " + req.getParameter("userId"));
         System.out.println("패스워드: " + req.getParameter("password"));
+
+        /* 필기. Attribute는 Object이기에 String으로 down casting을 해준다. */
+        String userName = (String) req.getAttribute("userName");
+
+        StringBuilder responseText = new StringBuilder();
+        responseText.append("<h3 align=\"center\">\n")
+                .append(userName)
+                .append("님 환영합니다.</h3>");
+
+        resp.setContentType("text/html");
+
+        PrintWriter out = resp.getWriter();
+        out.print(responseText);
+        out.flush();
+        out.close();
+
     }
 }

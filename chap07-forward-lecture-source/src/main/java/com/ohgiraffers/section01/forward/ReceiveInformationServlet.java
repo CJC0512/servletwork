@@ -24,11 +24,11 @@ public class ReceiveInformationServlet extends HttpServlet {
         System.out.println("password = " + password);
 
         /* 설명.
-        *   이 부분에서는 id와 pwd에 해당하는 user의 정보를 select하고 확인하는 비즈니스 로직(BL)이
-        *   수행되어야 한다. (이름을 조회해서 이름을 알게 됨)
-        *   우리는 제대로 조회가 되었다는 가정하에 'XXX님 환영합니다.'와 같은 메시지를 출력하는 화면을
-        *   만들어 응답해 보자.
-        * */
+         *   이 부분에서는 id와 pwd에 해당하는 user의 정보를 select하고 확인하는 비즈니스 로직(BL)이
+         *   수행 되어야 한다. (이름을 조회해서 이름을 알게 됨)
+         *   우리는 제대로 조회가 되었다는 가정하에 'XXX님 환영합니다.'와 같은 메시지를 출력하는 화면을
+         *   만들어 응답해 보자.
+         * */
 
         req.setAttribute("userName", "홍길동");
 
