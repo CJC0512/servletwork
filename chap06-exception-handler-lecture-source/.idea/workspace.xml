@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7520bb52-0709-48cf-864d-5477222d0a46" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/chap06-exception-handler-lecture-source.main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/chap06-exception-handler-lecture-source.test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chap06-exception-handler-lecture-source.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chap07-forward-lecture-source/src/main/java/com/ohgiraffers/chap07forwardlecturesource/HelloServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chap07-forward-lecture-source/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../chap07-forward-lecture-source/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap03-parameter-lecture-source/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chap03-parameter-lecture-source/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap04-request-lecture-source/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chap04-request-lecture-source/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/war/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/war/MANIFEST.MF" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +26,12 @@
       <state>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="chap06-exception-handler-lecture-source" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -65,9 +69,9 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "Tomcat Server.Tomcat 10.1.18.executor": "Run",
-    "git-widget-placeholder": "feature/chap07",
+    "git-widget-placeholder": "feature/하브루타",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/bootcamp/servletwork/chap06-exception-handler-lecture-source",
+    "last_opened_file_path": "C:/bootcamp/servletwork/chap05-response-lecture-source",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -191,6 +195,7 @@
       <updated>1707272455142</updated>
       <workItem from="1707272456180" duration="3030000" />
       <workItem from="1707276752507" duration="436000" />
+      <workItem from="1707292346285" duration="8000" />
     </task>
     <servers />
   </component>

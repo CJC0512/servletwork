@@ -4,6 +4,13 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/chap01-life-cycle-lecture-source" />
     <file type="web" url="file://$PROJECT_DIR$/chap02-service-method-lecture-source" />
+    <file type="web" url="file://$PROJECT_DIR$/chap03-parameter-lecture-source" />
+    <file type="web" url="file://$PROJECT_DIR$/chap04-request-lecture-source" />
+    <file type="web" url="file://$PROJECT_DIR$/chap05-response-lecture-source" />
+    <file type="web" url="file://$PROJECT_DIR$/chap06-exception-handler-lecture-source" />
+    <file type="web" url="file://$PROJECT_DIR$/chap07-forward-lecture-source" />
+    <file type="web" url="file://$PROJECT_DIR$/chap08-redirect-lecture-source" />
+    <file type="web" url="file://$PROJECT_DIR$/chap09-cookie-lecture-source" />
   </component>
   <component name="ProjectRootManager">
     <output url="file://$PROJECT_DIR$/out" />
