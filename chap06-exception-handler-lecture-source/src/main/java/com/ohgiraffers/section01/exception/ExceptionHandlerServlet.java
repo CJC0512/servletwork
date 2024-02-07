@@ -59,7 +59,7 @@ public class ExceptionHandlerServlet extends HttpServlet {
         resp.setContentType("text/html");
 
         PrintWriter out = resp.getWriter();
-        
+
         out.print(errorPage);
         out.flush();
         out.close();
