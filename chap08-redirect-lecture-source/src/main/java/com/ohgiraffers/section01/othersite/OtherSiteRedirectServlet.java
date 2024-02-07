@@ -1,4 +1,4 @@
-package com.ohgiraffers.section01.othercite;
+package com.ohgiraffers.section01.othersite;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
@@ -8,9 +8,9 @@ import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
 
-@WebServlet("/othercite")
-public class OtherCiteRedirectServlet extends HttpServlet {
-    public OtherCiteRedirectServlet() {
+@WebServlet("/othersite")
+public class OtherSiteRedirectServlet extends HttpServlet {
+    public OtherSiteRedirectServlet() {
     }
 
     @Override

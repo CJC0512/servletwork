@@ -9,7 +9,7 @@
     <h1 align="center">redirect</h1>
     <%-- ul>(li>a)*2 --%>
     <ul>
-        <li><a href="othercite">다른 웹 사이트로 redirect 테스트</a></li>
+        <li><a href="othersite">다른 웹 사이트로 redirect 테스트</a></li>
         <li><a href="otherservlet">다른 서블릿으로 redirect 테스트</a></li>
     </ul>
 </body>
