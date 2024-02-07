@@ -7,6 +7,7 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.Enumeration;
 
 @WebServlet("/showErrorPage")
@@ -37,5 +38,30 @@ public class ExceptionHandlerServlet extends HttpServlet {
         System.out.println("message = " + message);
         System.out.println("servletName = " + servletName);
 
+        StringBuilder errorPage = new StringBuilder();
+        errorPage.append("<!DOCTYPE html>\n")
+                .append("<html>\n")
+                .append("<head>\n")
+                .append("</head>\n")
+                .append("<body>\n")
+                .append("<hi align=\"center\">")
+                .append(statusCode)
+                .append("-")
+                .append(message)
+                .append("<br>\n")
+                .append("<p>에러 발생한 서블릿 명: ")
+                .append(servletName)
+                .append("</p>")
+                .append("</h1>\n")
+                .append("</body>\n")
+                .append("</html>");
+
+        resp.setContentType("text/html");
+
+        PrintWriter out = resp.getWriter();
+        
+        out.print(errorPage);
+        out.flush();
+        out.close();
     }
 }
